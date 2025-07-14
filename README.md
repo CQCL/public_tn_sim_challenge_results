@@ -9,7 +9,7 @@ The file `report.pdf` contains the conclusions drawn from the results.
 The following scripts generate the figures included in `report.pdf`:
 
 - `python expval_diff_heatmap.py` generates the heat maps comparing expectation values.
-- `python runtime_bands.py <mirror_fidelity>` generates the rankings for the different circuit families according to runtime, only including simulations where the mirror fidelity is greater or equal to the argument provided.
+- `python ranking.py <mirror_fidelity>` generates the rankings for the different circuit families according to runtime, only including simulations where the mirror fidelity is greater or equal to the argument provided.
 
 
 ## Continued improvements
