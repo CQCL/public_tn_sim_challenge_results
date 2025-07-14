@@ -1,0 +1,7 @@
+
+BY INCLUDING THIS FILE IN YOUR SUBMISSION, YOU AGREE TO PARTICIPATE IN THE CHALLENGE AS A PUBLIC TIER PARTICIPANT.
+In particular, you understand and agree to the following:
+
+- The list of participants in the public tier will be made publicly available on the 1st of July.
+- All of the public tier participants' submissions will be included in a public repository after the challenge has ended (1st of July).
+- Participants are free to advertise the results of the rankings and reference the repository as proof.

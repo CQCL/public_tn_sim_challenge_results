@@ -1,0 +1,110 @@
+# These are not simulated (cannot even run with chi=256)
+mvsp_cauchy2d_chebyshev_d10_n25
+mvsp_ricker2d_chebyshev_d5_n40
+mvsp_cauchy2d_chebyshev_d5_n40
+mvsp_cauchy2d_chebyshev_d10_n40
+mvsp_gaussian2d_chebyshev_d5_n40
+uccsd_sto3g_H2SO4
+uccsd_sto3g_C4H8
+mvsp_gaussian2d_chebyshev_d10_n40
+mvsp_ricker2d_chebyshev_d10_n40
+circ_128_mean_dict
+circ_16_mean_dict
+circ_32_mean_dict
+circ_64_mean_dict
+circ_8_mean_dict
+# truncation_fidelity=0.9
+TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=20_Lx=4_Ly=7
+mvsp_ricker2d_chebyshev_d10_n25
+XZ_square_PBC_J=1_dt=0.3_n_trotter_steps=16_Lx=8_Ly=7
+diamond_steane
+uccsd_sto3g_Na2S
+# truncation_fidelity=0.95
+TFIM_square_obc_Jz=1.0_hx=8.0_dt=0.1_n_trotter_steps=8_Lx=8_Ly=7
+# truncation_fidelity=0.99
+TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=14_Lx=4_Ly=7
+TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=16_Lx=4_Ly=7
+TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=18_Lx=4_Ly=7
+t_injections_steane
+linear_steane
+# truncation_fidelity=0.999
+linear_colour
+mvsp_cauchy2d_fourier_d5_n10
+mvsp_cauchy2d_fourier_d5_n40
+mvsp_cauchy2d_fourier_d5_n25
+mvsp_cauchy2d_fourier_d10_n40
+mvsp_cauchy2d_fourier_d10_n25
+mvsp_cauchy2d_fourier_d10_n10
+mvsp_gaussian2d_fourier_d10_n25
+mvsp_gaussian2d_fourier_d10_n10
+mvsp_gaussian2d_fourier_d10_n40
+TFIM_honeycomb_PBC_Jz=1.0_hx=1.5_dt=0.1_n_trotter_steps=6_Lx=4_Ly=7
+mvsp_ricker2d_fourier_d10_n25
+mvsp_ricker2d_fourier_d10_n10
+mvsp_gaussian2d_fourier_d5_n25
+mvsp_gaussian2d_fourier_d5_n40
+mvsp_gaussian2d_fourier_d5_n10
+mvsp_ricker2d_fourier_d10_n40
+mvsp_gaussian2d_chebyshev_d10_n25
+mvsp_cauchy2d_chebyshev_d5_n25
+mvsp_ricker2d_fourier_d5_n40
+mvsp_ricker2d_fourier_d5_n10
+mvsp_ricker2d_fourier_d5_n25
+# truncation_fidelity=0.9997
+mvsp_cauchy2d_chebyshev_d10_n10
+# truncation_fidelity=0.9999
+mvsp_gaussian2d_chebyshev_d5_n10
+mvsp_ricker2d_chebyshev_d5_n10
+mvsp_gaussian2d_chebyshev_d5_n25
+XZ_square_obc_J=1_dt=0.1_n_trotter_steps=10_Lx=8_Ly=7
+uccsd_sto3g_NHCl2
+uccsd_sto3g_C3H6
+uccsd_sto3g_N2O
+uccsd_sto3g_CO2
+uccsd_sto3g_SiF4
+uccsd_sto3g_SiO2
+uccsd_sto3g_SO2
+uccsd_sto3g_NF3
+uccsd_sto3g_HNO3
+uccsd_sto3g_NaOH
+uccsd_sto3g_NaCl
+# truncation_fidelity=0.99995
+mvsp_cauchy2d_chebyshev_d5_n10
+mvsp_ricker2d_chebyshev_d5_n25
+# truncation_fidelity=0.99999
+mvsp_ricker2d_chebyshev_d10_n10
+mvsp_gaussian2d_chebyshev_d10_n10
+# chi 128
+XZ_honeycomb_obc_J=1_dt=0.1_n_trotter_steps=6_Lx=4_Ly=7
+# chi 256
+TFIM_honeycomb_PBC_Jz=1.0_hx=3.0_dt=0.3_n_trotter_steps=18_Lx=4_Ly=7
+XZ_honeycomb_obc_J=1_dt=0.1_n_trotter_steps=14_Lx=4_Ly=7
+# chi 300
+XZ_honeycomb_obc_J=1_dt=0.1_n_trotter_steps=16_Lx=4_Ly=7
+# chi 512
+t_injections_balanced
+t_injections_high_rate
+t_injections_high_distance
+t_injections_colour
+linear_balanced
+diamond_balanced
+diamond_high_rate
+diamond_high_distance
+diamond_colour
+linear_high_distance
+linear_high_rate
+XZ_square_obc_J=1_dt=0.5_n_trotter_steps=14_Lx=8_Ly=7
+XZ_square_obc_J=1_dt=0.5_n_trotter_steps=20_Lx=8_Ly=7
+TFIM_square_obc_Jz=1.0_hx=4.0_dt=0.5_n_trotter_steps=20_Lx=8_Ly=7
+TFIM_honeycomb_obc_Jz=1.0_hx=6.0_dt=0.3_n_trotter_steps=14_Lx=4_Ly=7
+TFIM_square_PBC_Jz=1.0_hx=2.0_dt=0.5_n_trotter_steps=4_Lx=8_Ly=7
+TFIM_square_PBC_Jz=1.0_hx=8.0_dt=0.3_n_trotter_steps=16_Lx=8_Ly=7
+# chi 750
+TFIM_square_PBC_Jz=1.0_hx=8.0_dt=0.3_n_trotter_steps=12_Lx=8_Ly=7
+TFIM_square_obc_Jz=1.0_hx=8.0_dt=0.3_n_trotter_steps=20_Lx=8_Ly=7
+TFIM_square_PBC_Jz=1.0_hx=8.0_dt=0.5_n_trotter_steps=2_Lx=8_Ly=7
+XZ_honeycomb_obc_J=1_dt=0.1_n_trotter_steps=20_Lx=4_Ly=7
+# chi 2048
+TFIM_square_obc_Jz=1.0_hx=4.0_dt=0.5_n_trotter_steps=4_Lx=8_Ly=7
+# chi 2600
+TFIM_honeycomb_PBC_Jz=1.0_hx=1.5_dt=0.3_n_trotter_steps=4_Lx=4_Ly=7

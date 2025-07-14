@@ -1,0 +1,50 @@
+# truncation_fidelity=0.9
+diamond_steane
+linear_steane
+mvsp_gaussian2d_fourier_d5_n40
+mvsp_gaussian2d_fourier_d10_n40
+TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=20_Lx=4_Ly=7
+# truncation_fidelity=0.95
+TFIM_square_obc_Jz=1.0_hx=8.0_dt=0.1_n_trotter_steps=8_Lx=8_Ly=7
+mvsp_gaussian2d_fourier_d5_n10
+mvsp_gaussian2d_fourier_d5_n25
+mvsp_gaussian2d_fourier_d10_n25
+# truncation_fidelity=0.99
+XZ_honeycomb_obc_J=1_dt=0.1_n_trotter_steps=14_Lx=4_Ly=7
+XZ_honeycomb_obc_J=1_dt=0.1_n_trotter_steps=16_Lx=4_Ly=7
+mvsp_ricker2d_fourier_d5_n25
+mvsp_cauchy2d_fourier_d10_n10
+mvsp_cauchy2d_fourier_d10_n25
+mvsp_cauchy2d_fourier_d5_n25
+mvsp_cauchy2d_fourier_d5_n40
+mvsp_cauchy2d_fourier_d10_n40
+mvsp_cauchy2d_fourier_d5_n10
+mvsp_ricker2d_fourier_d5_n40
+mvsp_ricker2d_fourier_d5_n10
+TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=18_Lx=4_Ly=7
+TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=16_Lx=4_Ly=7
+TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=14_Lx=4_Ly=7
+# truncation_fidelity=0.995
+TFIM_honeycomb_PBC_Jz=1.0_hx=1.5_dt=0.1_n_trotter_steps=6_Lx=4_Ly=7
+mvsp_gaussian2d_fourier_d10_n10
+XZ_honeycomb_obc_J=1_dt=0.1_n_trotter_steps=6_Lx=4_Ly=7
+# truncation_fidelity=0.999
+mvsp_gaussian2d_chebyshev_d5_n10
+mvsp_gaussian2d_chebyshev_d5_n25
+mvsp_ricker2d_fourier_d10_n40
+mvsp_ricker2d_fourier_d10_n10
+mvsp_ricker2d_fourier_d10_n25
+linear_colour
+# truncation_fidelity=0.9995
+XZ_honeycomb_obc_J=1_dt=0.1_n_trotter_steps=20_Lx=4_Ly=7
+XZ_square_obc_J=1_dt=0.1_n_trotter_steps=10_Lx=8_Ly=7
+# truncation_fidelity=0.9997
+mvsp_ricker2d_chebyshev_d5_n10
+# truncation_fidelity=0.9998
+mvsp_cauchy2d_chebyshev_d5_n10
+mvsp_ricker2d_chebyshev_d5_n25
+mvsp_gaussian2d_chebyshev_d10_n10
+# truncation_fidelity=0.99985
+mvsp_ricker2d_chebyshev_d10_n10
+# chi 256
+TFIM_honeycomb_PBC_Jz=1.0_hx=1.5_dt=0.3_n_trotter_steps=4_Lx=4_Ly=7

@@ -1,0 +1,3 @@
+Please download the files sent to the participants for the challenge from Zenodo: https://doi.org/10.5281/zenodo.15878875
+
+These include the circuits that were simulated, which have been made publicly available.
