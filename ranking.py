@@ -68,5 +68,5 @@ for family, circs in family_circs.items():
     plt.xlabel('Runtime (seconds)')
     plt.xscale("log")
     plt.ylabel('Circuit')
-    plt.title(family)
+    plt.title(f"{family} (fidelity > {min_fid})")
     plt.show()
