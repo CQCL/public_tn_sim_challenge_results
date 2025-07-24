@@ -11,10 +11,12 @@ if len(sys.argv) != 2:
 min_fid = float(sys.argv[1])
 
 family_circs = defaultdict(list)
+circ_id = dict()
 with open("metadata.csv", "r") as f:
-    for l in f.readlines()[1:]:  # Ignore the header
-        circname = l.split(",")[0]
-        family = l.split(",")[1]
+    for row, l in enumerate(f.readlines()[1:]):  # Ignore the header
+        circname = l.split(",")[1]
+        family = l.split(",")[2]
+        circ_id[circname] = l.split(",")[0]
         if "t_injections" not in circname:  # Ignore t_injections bonus circuits
             family_circs[family].append(circname)
 participants = list()
@@ -56,17 +58,19 @@ for family, circs in family_circs.items():
         circ_best_time.append((c, best_time))
     circ_best_time.sort(key=lambda tup: tup[1], reverse=True)
     sorted_circs = [c for c, _ in circ_best_time]
+    sorted_circ_ids = [circ_id[c] for c in sorted_circs]
 
-    plt.plot([0.0]*len(sorted_circs), sorted_circs, color="black")
+    plt.plot([0.0]*len(sorted_circ_ids), sorted_circ_ids, color="black")
 
     for participant in participants:
         times = [runtime_per_circ[participant][c] for c in sorted_circs]
-        plt.plot(times, sorted_circs, color=participant_color[participant], label=participant, marker="o")
+        plt.plot(times, sorted_circ_ids, color=participant_color[participant], label=participant, marker="o")
 
     plt.legend()
     plt.grid(visible=True, which="both", linewidth=0.3)
     plt.xlabel('Runtime (seconds)')
     plt.xscale("log")
-    plt.ylabel('Circuit')
+    plt.ylabel('Circuit ID (see metadata.csv)')
     plt.title(f"{family} (fidelity > {min_fid})")
+    plt.tight_layout()
     plt.show()

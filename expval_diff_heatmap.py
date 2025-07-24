@@ -8,8 +8,8 @@ import json
 family_circs = defaultdict(list)
 with open("metadata.csv", "r") as f:
     for l in f.readlines()[1:]:  # Ignore the header
-        circname = l.split(",")[0]
-        family = l.split(",")[1]
+        circname = l.split(",")[1]
+        family = l.split(",")[2]
         family_circs[family].append(circname)
 
 all_circs = sum(family_circs.values(), [])

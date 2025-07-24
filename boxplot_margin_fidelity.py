@@ -7,8 +7,8 @@ import pandas as pd
 family_circs = defaultdict(list)
 with open("metadata.csv", "r") as f:
     for l in f.readlines()[1:]:  # Ignore the header
-        circname = l.split(",")[0]
-        family = l.split(",")[1]
+        circname = l.split(",")[1]
+        family = l.split(",")[2]
         if "t_injections" not in circname:  # Ignore t_injections bonus circuits
             family_circs[family].append(circname)
 participants = list()
